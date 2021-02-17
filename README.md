@@ -1,1 +1,1 @@
-# edx-1
+Infopulse JS course
