@@ -1,0 +1,27 @@
+body {
+	background: #e0c4a6;
+}
+table {
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #a7927b;
+	width: 400px;
+}
+
+td{
+	border: 1px solid #a7927b ;
+}
+
+td input {
+	width: 98%;
+}
+td textarea {
+	width: 98%;
+}
+.img__lang{
+	height: 10px;
+	width: 20px;
+	border: 1px solid black;
+}
+
+

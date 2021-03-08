@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Форма заказа Интернет-магазина</title>
+		<meta charset='UTF-8'>
+		<link rel="stylesheet" href="../scripts/stylesheet.css">
+	</head>
+	<body>
+		<form action='?' method='GET' id='form1'>
+			<div class="form__langs">
+				<div class="langs">
+					    <a href="#" class="langs__lang langs__lang_ru" data-lang="ru"><img src="../img/ru.png" alt="" class="img__lang" ></a>
+                        <a href="#" class="langs__lang langs__lang_ua" data-lang="ua"><img src="../img/ukr.jpg" alt="" class="img__lang" ></a>
+					<!--<a href="#" class="langs__lang langs__lang_ru" data-lang="ru">ru</a>
+					<a href="#" class="langs__lang langs__lang_ua" data-lang="ua">ua</a>-->
+
+				</div>
+			</div>
+			<table>
+				<tr>
+					<td><label class='form__label_name'>Имя</label></td>
+					<td><input type='text' name='name' class='form__name' placeholder="Иван" required></td>
+				</tr>
+				<tr>
+					<td><label class='form__label_surname'>Фамилия</label></td>
+					<td><input type='text' name='surname' class='form__surname' placeholder="Иванченко" required></td>
+				</tr>
+				<tr>
+					<td><label class='form__label_email'>Ваша электронная почта</label></td>
+					<td><input type='text' name='email' class='form__email' placeholder="email@email.com" required></td>
+				</tr>
+				<tr>
+					<td><label class='form__label_number'>Ваш номер телефона</label></td>
+					<td><input type='text' name='number' class='form__number' placeholder="+0(00)000-00-00" required></td>
+				</tr>
+				<tr>
+					<td><label class='form__label_address'>Ваш домашний адрес</label></td>
+					<td><textarea rows="5" name='address' class='form__address' placeholder="Город, улица, номер дома, номер квартиры, индекс" required></textarea></td>
+				</tr>
+				<tr>
+					<td><label class='form__label_question'>Как вы о нас узнали?</label></td>
+					<td>
+						<br><input type='radio' name='question' value='friends' class='form__question' id='question_friends' checked>
+						<label for='question_friends'  class='form__label_question-friends' >От друзей</label>
+						<br><input type='radio' name='question' value='advert' class='form__question' id='question_advert'>
+						<label for='question_advert' class='form__label_question-advert'>Из рекламы</label>
+						<br><input type='radio' name='question' value='internet' class='form__question' id='question_internet'>
+						<label for='question_internet' class='form__label_question-internet'>Нашел в интернете</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td>
+						<input type='button' value='Отправить' class='form__submit-button'>
+					</td>
+				</tr>
+			</table>
+
+		</form>
+		<script src="../scripts/jquery-3.3.1.min.js"></script>
+		<script src="../scripts/settings.js"></script>
+		<script src="../scripts/data.js"></script>
+		<script src="../scripts/component.js"></script>
+		<script src="../scripts/hw.js"></script>
+		<script>
+			var form1 = new Form("#form1");
+		</script>
+		</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
