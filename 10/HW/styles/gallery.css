@@ -1,0 +1,40 @@
+.b-gallery{
+position: relative;
+width: 800px;
+height: 700px;
+overflow:hidden;
+margin: 0 auto;
+
+}
+
+.b_sldr{
+position:relative;
+width: 10000px;
+height: 700px;
+}
+
+.b_sldr img{
+float:left;
+}
+
+.b-arrow{
+position:absolute;
+top:300px;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+}
+.b-arrow:hover{
+	opacity:.6;
+}
+
+.b-arrow_prev{
+left:10px;
+
+}
+
+.b-arrow_next{
+right:10px;
+
+}
