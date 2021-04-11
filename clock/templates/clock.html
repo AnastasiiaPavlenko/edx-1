@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>цифровые часы</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/clock.css">
+	</head>
+	<body>
+		<h1>До конца курса осталось:</h1>
+		<div class="container">
+			<ul class="clock" id="clock1">
+				<li class="days" id="days"></li>
+				<li class="point">:</li>
+				<li class="hours" id="hours"></li>
+				<li class="point">:</li>
+				<li class="min" id="min"></li>
+				<li class="point">:</li>
+				<li class="sec" id="sec"></li>
+			</ul>
+			<ul class="info">
+				<li>Дней</li>
+				<li>Часов</li>
+				<li>Минут</li>
+				<li>Секунд</li>
+			</ul>
+		</div>
+		<script src="../scripts/jquery-3.3.1.min.js"></script>
+		<script src="../scripts/component.js"></script> 
+		<script src="../scripts/newclock.js"></script>	
+		<script>
+			var clock1 = new Clock("#clock1");
+		</script>
+	</body>
+</html>
